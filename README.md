@@ -13,10 +13,13 @@ Reference:  Tiwari, Jayaswal, Sinha (2021). Competitive Hub Location Problem: Mo
 
 4. The codes shared are in .cpp format and CPLEX 12.7.1 is used as the solver, where the default number of threads is 20. The code can be run using the following steps:
 	
-	i. Build the .exe file (using Microsoft Visual Studio). This generates <project name>.exe, where <project name> is the name of the Microsoft Visual C++ project used to            build the .exe file.
+	i. Build the .exe file (using Microsoft Visual Studio). This generates "project name.exe", where "project name" is the name of the Microsoft Visual C++ project used to            build the .exe file.
+	
 	ii. Save a copy of the data file (e.g. Data_HS_CAB_10node.txt or AP_50nodes_data.txt) in the same folder as the .exe file
+	
 	iii. Open the Windows Command prompt. Change the directory to the location of the .exe file.
-	iv. Run the following command on the command prompt: <project name>.exe <Data file name p alpha>. Here p and alpha correspond to the parameter for which the code is to be             run.
+	
+	iv. Run the following command on the command prompt: "project name.exe Data file name p alpha". Here p and alpha correspond to the parameter for which the code is to             be run.
 
 
-5. To save the output to a file, run the following command on the command prompt: <project name>.exe <Data file name p alpha> > <Output file Name>. 
+5. To save the output to a file, run the following command on the command prompt: "project name.exe Data file name p alpha" > "Output file Name". 
